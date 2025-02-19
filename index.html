@@ -7,12 +7,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
 </head>
 <body>
     <div id="particles-js"></div>
 
     <header>
-        <h1 class="animated-name">Ananya</h1>
+        <div class="intro">
+            <img src="profile.jpg" alt="Ananya's Photo" class="profile-pic">
+            <h1 class="animated-text"><span id="animated-name"></span></h1>
+        </div>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -26,46 +30,43 @@
     <section id="about">
         <h2>About Me</h2>
         <p>
-            Hello! I'm **Ananya**, a passionate **B.Tech 3rd-year student in CSE (AIML)**.  
-            I have a strong interest in **Machine Learning, AI, and Web Development** and  
-            I’m constantly exploring new technologies to build innovative projects.  
+            Hello! I'm <b>Ananya</b>, a passionate B.Tech 3rd-year student in CSE (AIML).  
+            I love exploring Machine Learning, AI, and Web Development and enjoy creating  
+            projects that solve real-world challenges.  
         </p>
         <p>
-            My goal is to become a **Machine Learning Engineer** and work on real-world AI applications.  
-            I've developed multiple projects in **AI, Web Development, and Blockchain**,  
-            focusing on solving real-life challenges with technology.
+            My goal is to become a Machine Learning Engineer and work on AI-driven solutions.  
+            I have built projects in AI, Web Development, and Blockchain, including:  
         </p>
+        <ul>
+            <li>🔹 Fake Product Detection using Blockchain – Securing supply chains.</li>
+            <li>🔹 Face Detection Attendance System – Automating attendance with AI.</li>
+        </ul>
         <p>
-            I actively participate in **coding competitions** and **hackathons**,  
-            and I love sharing knowledge through collaborations.  
-            Looking forward to **internships and job opportunities** where I can  
-            apply my skills and gain industry experience.
+            I'm actively seeking internships and job opportunities where I can grow and  
+            contribute to exciting projects.
         </p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-
         <div class="project">
-            <h3>🔗 Fake Product Detection using Blockchain Technology</h3>
+            <h3>🔗 Fake Product Detection using Blockchain</h3>
             <p>
-                This project provides a **secure and transparent system** to verify product authenticity  
-                using **blockchain technology**. Instead of relying on manual verification,  
-                we developed a **barcode-based authentication** system that prevents counterfeiting.  
-                - Implemented **smart contracts** on Ethereum blockchain.  
-                - Used a **laptop camera** to scan barcodes for product verification.  
-                - Ensured **tamper-proof product history** for consumers.  
+                Developed a secure and transparent system for product verification using blockchain.  
+                - Implemented smart contracts for secure authentication.  
+                - Used QR/barcode scanning for real-time verification.  
+                - Ensured tamper-proof product tracking to combat counterfeiting.  
             </p>
         </div>
 
         <div class="project">
-            <h3>🖥️ Face Detection Attendance System using Python</h3>
+            <h3>🖥️ Face Detection Attendance System</h3>
             <p>
-                A **contactless, automated attendance system** using **AI-based face recognition**.  
-                This eliminates the need for manual attendance marking in schools, colleges, and offices.  
-                - Developed using **OpenCV and Python** for real-time face detection.  
-                - Integrated **database storage** for attendance records.  
-                - Improved **accuracy with deep learning models** for facial recognition.  
+                Built an AI-powered facial recognition system for attendance tracking.  
+                - Developed using OpenCV & Python.  
+                - Integrated database storage for managing attendance records.  
+                - Improved accuracy with deep learning.  
             </p>
         </div>
     </section>
@@ -76,12 +77,11 @@
             <div class="skill">Java</div>
             <div class="skill">Python</div>
             <div class="skill">C</div>
-            <div class="skill">Problem Solving</div>
             <div class="skill">Machine Learning</div>
+            <div class="skill">Web Development</div>
             <div class="skill">HTML</div>
             <div class="skill">CSS</div>
             <div class="skill">JavaScript</div>
-            <div class="skill">Communication</div>
         </div>
     </section>
 
