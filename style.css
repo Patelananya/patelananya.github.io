@@ -29,7 +29,6 @@ nav ul {
     justify-content: center;
     gap: 20px;
     padding: 0;
-    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -47,40 +46,18 @@ nav ul li a:hover {
     color: #66a6ff;
 }
 
-/* Fix spacing between sections */
-section {
-    padding: 80px 10px;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-/* Adjust intro section (animated name + profile photo) */
+/* Intro Section */
 .intro-section {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    max-width: 900px;
+    justify-content: center;
     margin: 120px auto 80px;
     padding: 20px;
 }
 
-.name-container {
-    flex: 1;
-    text-align: left;
-}
-
-.animated-text {
-    font-size: 32px;
-    font-weight: bold;
-    color: #66a6ff;
-    white-space: nowrap;
-    overflow: hidden;
-    display: inline-block;
-}
-
 .image-container {
-    flex: 1;
-    text-align: right;
+    text-align: center;
 }
 
 .profile-pic {
@@ -88,10 +65,17 @@ section {
     height: 150px;
     border-radius: 50%;
     border: 4px solid #66a6ff;
-    box-shadow: 0 0 15px rgba(102, 166, 255, 0.6);
+    box-shadow: 0 0 10px rgba(102, 166, 255, 0.6);
+    margin-bottom: 10px; /* Small gap between photo and name */
 }
 
-/* Fix Skills Section (Transparent Box for Each Skill) */
+.animated-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #66a6ff;
+}
+
+/* Skills Section */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -113,20 +97,4 @@ section {
 
 .skill:hover {
     transform: scale(1.1);
-}
-
-/* Responsive Fix */
-@media (max-width: 768px) {
-    .intro-section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .name-container {
-        text-align: center;
-    }
-    .image-container {
-        text-align: center;
-        margin-top: 10px;
-    }
 }
