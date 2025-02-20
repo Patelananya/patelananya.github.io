@@ -1,6 +1,6 @@
-// Animated Text Effect (Like Shiva Krishna's Portfolio)
+// Animated Text Effect (Only Name)
 var typed = new Typed("#animated-name", {
-    strings: ["Ananya Jannatha", "Machine Learning Enthusiast", "Web Developer"],
+    strings: ["Ananya Jannatha"],
     typeSpeed: 50,
     backSpeed: 30,
     backDelay: 1500,
